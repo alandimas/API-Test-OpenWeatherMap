@@ -3,13 +3,7 @@ Question No 4
 
 Scenario : Get 5 day weather forecast of Jakarta Selatan
 
-5 day	https://api.openweathermap.org/data/2.5/forecast
-lat	-6.300641
-lon	106.814095
-appid	ea8a2abb9c937ad008452ea077b02beb
-units	imperial
-cnt	40
-lang	id
+https://api.openweathermap.org/data/2.5/forecast?lat=-6.300641&lon=106.814095&appid=ea8a2abb9c937ad008452ea077b02beb&units=imperial&cnt=40&lang=id
 
 Respon Body and JSON Schemac : 200 OK
 
@@ -1482,5 +1476,37 @@ Respon Body and JSON Schemac : 200 OK
     "sunrise":1739314647,
     "sunset":1739359001
   }
+}
+
+
+
+Scenario : Get current air pollution of Jakarta Selatan
+
+https://api.openweathermap.org/data/2.5/air_pollution?lat=-6.300641&lon=106.814095&appid=ea8a2abb9c937ad008452ea077b02beb
+
+Respon Body and JSON Schemac : 200 OK
+
+{
+  "coord":{
+    "lon":106.8141,
+    "lat":-6.3006
+  },
+  "list":[
+    {
+      "main":{
+        "aqi":5
+      },
+      "components":{
+        "co":15594.48,
+        "no":101.92,
+        "no2":304.34,
+        "o3":72.24,
+        "so2":87.74,
+        "pm2_5":459.79,
+        "pm10":609.4,
+        "nh3":46.61
+      },
+      "dt":1739330653
+    }]
 }
 
