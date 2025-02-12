@@ -1,6 +1,18 @@
 # API-Test-OpenWeatherMap
 Question No 4
 
+Testing Step :
+-	Open project API Test OpenWeatherMap
+-	Open Test Case
+-	Open and Run Test Case = Get 5 Day Weather Forecast
+-	Open and Run Test Case = Get Current Air Pollution
+To See Respon Body and JSON Schema :
+-	Open Object Repository
+-	Open and Run 5-Day Weather Forecast
+-	Open And Run Air Pollution
+
+
+
 Scenario : Get 5 day weather forecast of Jakarta Selatan
 
 https://api.openweathermap.org/data/2.5/forecast?lat=-6.300641&lon=106.814095&appid=ea8a2abb9c937ad008452ea077b02beb&units=imperial&cnt=40&lang=id
