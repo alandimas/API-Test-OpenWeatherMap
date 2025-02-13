@@ -8,7 +8,7 @@ Testing Step :
 -	Open and Run Test Case = Get Current Air Pollution
 - Then, To See Respon Body and JSON Schema
 -	Open Object Repository
--	Open and Run 5-Day Weather Forecast
+-	Open and Run 5-Day Weather Forecast (To get 5 Day use ctn : 40)
 -	Open And Run Air Pollution
 
 
